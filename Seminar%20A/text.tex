@@ -1,0 +1,26 @@
+\chapter{Text in Latex}
+\label{cha:text}
+
+In Latex gibt es f"ur einige Symbole bestimmte Befehle die man eingeben muss um sie als Text richtig darstellen zu k"onnen. Im folgenden werden einige Befehle bzw. Codierungen zur Erstellung einiger Symbole erl"autert. 
+
+
+%% Umlaute Seite %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Umlaute und "Ahnliches}
+\label{sec:umlaute}
+
+Es gibt einige Methoden Umlaute in Latex zu setzten. Die einfachste erfolgt mit Hilfe eines Anf"urungszeichens, das vor dem gew"unschten Vokal positioniert werden muss, d.h. um das Wort ``K"uhe'' richtig darzustellen muss man im Editor ``K''uhe'' schreiben. Genauso werden auch die Umlaute "a und "o erzeugt.\\F"ur scharfes s `` "s '' braucht man auch vor einem ``s'' wieder ein Anf"uhrungszeichen zu setzten.
+\\
+Die Codierung bzw. entsprechenden Befehle zu weiteren Sonderzeichen kann man unter \href{[http://de.wikibooks.org/wiki/LaTeX-Kompendium:_Sonderzeichen]}{www.wikibooks.org} finden.\\
+\\
+
+\section{Querverweis}
+\label{sec:ref}
+Innerhalb eines Textes kann man einen Querverweis einf"ugen. Dies funktioniert mit dem Befehl {\textbackslash ref \{Name\}}. Der Befehl erzeugt einen Querverweis auf eine Textstelle, die zuvor durch einen {\textbackslash label}-Befehl mit dem angegebenen Namen versehen wurde. Der Querverweis gibt die Gliederungsnummer der betreffenden Textstelle an. Aus diesem Grund es ist sinnvoll Kapiteln bzw. Unterkapiteln auf die man "ofter verweisen m"ochte mit dem Befehl {\textbackslash label\{Name\} zu vermerken. 
+ 
+ \paragraph{Beispiel}
+ 
+ Siehe Kapitel \ref{cha:text} um ausf"uhrliche Information zum Text in Latex.
+ 
+ In diesem Beispiel wurde auf den Kapitel Text in Latex verwiesen mit {\textbackslash ref\{text\}} da das Kapitel Text in Latex mit dem Befehl {\textbackslash label\{cha:text\}} versehen wurde. Der Befehl {\textbackslash label} muss direkt nach dem Befehl f"ur den Gliederungsabschnitt bzw. "Uberschrift erfolgen.
+ 
+ 

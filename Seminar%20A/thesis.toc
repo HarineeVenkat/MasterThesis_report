@@ -1,0 +1,31 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Introduction and Motivation}{9}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{9}{section.1.1}
+\contentsline {section}{\numberline {1.2}Literature review}{9}{section.1.2}
+\contentsline {section}{\numberline {1.3}Problem Description}{9}{section.1.3}
+\contentsline {chapter}{\numberline {2}Theory of ADCs}{11}{chapter.2}
+\contentsline {section}{\numberline {2.1}Different ADC Architectures}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Measurement parameters}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}Theory of Oversampling}{11}{section.2.3}
+\contentsline {chapter}{\numberline {3}System Overview}{13}{chapter.3}
+\contentsline {chapter}{\numberline {4}ADC design}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}Design Specifications}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}State Diagrams Explained}{15}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Counter ADC}{15}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Tracking ADC}{15}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}SAR ADC}{15}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Comparative Analysis of Counter,Tracking and SAR ADC}{15}{subsection.4.2.4}
+\contentsline {chapter}{\numberline {5}Digital Post Calibration}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Moving Average Filter}{17}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1} Analysis and Implementation of Moving Average in FPGA}{17}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2} Moving Average with Floating Point Unit in FPGA}{17}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3} Efficient Implementation of Moving Average in FPGA using CIC}{17}{subsection.5.1.3}
+\contentsline {subsubsection}{CIC as Moving Average-Proof of Concept}{17}{subsubsection*.16}
+\contentsline {subsection}{\numberline {5.1.4} Moving Average with CIC performance Analysis}{17}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Illustration of Traditional tracking ADC and Moving Average}{17}{subsection.5.1.5}
+\contentsline {chapter}{\numberline {6}Evaluation and Results}{19}{chapter.6}
+\contentsline {chapter}{\numberline {7}Conclusion and Outlook}{21}{chapter.7}
+\contentsline {section}{\numberline {7.1}Conclusion}{21}{section.7.1}
+\contentsline {section}{\numberline {7.2}Outlook}{21}{section.7.2}
+\contentsline {chapter}{\numberline {8}Bibliography}{23}{chapter.8}
+\contentsfinish 

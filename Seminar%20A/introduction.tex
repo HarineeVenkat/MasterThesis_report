@@ -1,0 +1,106 @@
+\chapter{Introduction}
+The Thesis start here\dots
+
+\subsection{Template and Software for writing your thesis}
+
+We would like to encourage you to use LaTeX for your written report. To support this, we prepared a template file you can use as a blueprint and fill in your texts. Download it below.
+
+For figures, diagrams and other images you should always use a vector format. Useful software is mainly:
+\begin{itemize}
+\item[] dia from http://www.gnome.org/projects/dia/
+\item[] inkscape from http://www.inkscape.org/
+\item[] gimp from http://www.gimp.org
+\item[] graphviz from http://www.graphwiz.org
+\item[] gnuplot
+\end{itemize}
+These programs are available on almost all OS platforms and can
+save eps files. For simple figures, you can also use xfig, but
+it's only available on Unix/Linux. With graphviz you can
+visualise graph structures, e.g., internal data structures.
+
+\begin{itemize}
+\item[] jabref http://jabref.sourceforge.net (organise your
+        bibliography)
+\end{itemize}
+
+\subsection{Important Hints for writing your thesis}
+(included topic: plagiarism)
+
+\begin{description}
+\item{Citings:} Citings of primary or secondary literature:
+if shorter than 3 lines: in the running text, in quotes;
+if longer than 3 lines: as a paragraph, indented.
+\item{References:} when?
+After each citing from primary or secondary literature: (cite page\_number)
+\begin{itemize}
+\item Example: "This is copied from text one on page fourteen" ([1], p.14).
+After each literally or correspondingly assumed contents of secondary literature (paraphrase)
+\item Example: This conclusion appears quite similar in text one [1].
+\end{itemize}
+\item{Plagiarism:}
+{\bf It is not acceptable} to use assumed material without reference! (this includes images)
+Also, read this text: http://www.informatik.tu-darmstadt.de/Plagiarism (there is at least one link to an English page also)
+\item{Wikipedia:} the wikipedia in general is not a reviewed encyclopaedia! Be careful with the contents (correct it when wrong - contribute to the community!) and do not cite it extensively!
+\end{description}
+
+\subsection{Additional hints for your thesis:}
+
+\begin{itemize}
+\item Please check if your LaTeX source can be {\bf compiled on our  computers!}
+\item Unix/Linux file names are {\bf case sensitive}, a frequent mistake are wrong filenames when exporting files from a PC!
+(e.g. picture.eps is not the same as picture.EPS or Picture.eps)
+\item We can support a low number of color images inside your thesis, the according pages can be printed here on our color laser.
+\item Please consider these hints when preparing your thesis! (list is incomplete and preliminary)
+\item Last but not least: make backups of your data if you work at home!
+You can (should) always have a recent copy, not older than 2 days, of all your work stuff on our computers here; just transfer your data by sftp or a USB stick to your MES account!
+\item see the {\bf check list} on the web page for your hand-in
+\end{itemize}
+
+\subsection{About Coding and Describing Code}
+
+Please consider that comments and documentation is more than 50\%
+of what's needed for good code! Uncommented and undocumented code
+is almost unusable later and thus almost worthless!
+
+ Writing your Code:
+
+\begin{itemize}
+\item please write clear and readable!
+\item please comment your code (in Englisch, without umlauts)!
+\item for Java code, use JavaDoc as standard, for VHDL VHDLDoc. 
+\end{itemize}
+
+For the documentation of Java code:
+
+\begin{itemize}
+\item first, give a general overview of the programm and class structure, and the concept of the used data structures and program flow
+\item make a subsection for each (major) class
+\item describe general function, variables, methods, functions, parameters of functions etc. within each class; use tables and images to support your text!
+\item describe all algorithms in detail, as well as implementation details
+\item show examples of what your program does (test cases and data) 
+\end{itemize}
+
+For the documentation of VHDL/Verilog code:
+\begin{itemize}
+\item give and describe a top-level view of your design, including the file structure
+\item make a subsection for each (major) module
+  BTW, mention the filenames where to find the module)
+\item describe sub-modules, structure (e.g., register-transfer-idea), interfaces (I/Os), specific timing, other conditions
+\item describe all algorithms in detail, as well as implementation details
+\item show examples of what your hardware does (test cases and data)
+\item write and describe testbenches!!!
+\item generally: {\bf draw your own figures}, use automatically generated block diagrams (from design tools) only in special cases!
+\end{itemize}
+
+
+\subsection{\TeX \,Example}
+\noindent
+A boxed equation:
+\begin{equation}
+\boxed{\int\limits_{-\infty}^{\infty}\delta(x)\mathrm{d}x=1}
+\end{equation}
+and an unboxed one:
+\begin{equation}
+U=I\varrho\frac{l}{A}
+\end{equation}
+

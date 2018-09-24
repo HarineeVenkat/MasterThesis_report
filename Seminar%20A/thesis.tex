@@ -1,0 +1,160 @@
+\documentclass[linedtoc,
+               parskip,
+               twoside,
+               longdoc,
+               11pt,
+               noheadingspace,
+               accentcolor=tud1d,
+               bigchapter,
+               %draft,
+               colorback]{tudreport}
+
+%% language
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+%\usepackage[ansinew]{inputenc}  % Input-Encodung: ansinew for Windows
+\usepackage{microtype} % optischer Randausgleich bei pdflatex mit Zeichendehnung
+
+%% table
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{tabularx}
+
+%% State Chart
+\usepackage{pgf}
+\usepackage{tikz}
+
+%% matematics
+\usepackage{amsmath}
+\usepackage{nicefrac}
+\usepackage{icomma}
+
+%% misc
+\usepackage{paralist}% erweiterte Listenumgebung (z.B. compactitem)
+\usepackage{textcomp} % verschiedene Symbole
+\usepackage[nottoc, numbib]{tocbibind}
+\usepackage[ngerman]{hyperref}
+\renewcommand\plparsep{1ex}
+\usepackage{enumerate}
+\usepackage[stable]{footmisc}
+
+\hypersetup{%
+  pdftitle={Seminar},
+  pdfauthor={Harini Venkataramani},
+  pdfsubject={IMPLEMENTATION AND ANALYSIS OF A FIELD
+PROGRAMMABLE ADC DESIGN FOR THE INTERFACING OF
+FPGAS},
+  pdfview=FitH,
+  pdfstartview=FitV
+}
+
+%%% Zum Tester der Marginalien %%%
+  \newif\ifTUDmargin\TUDmarginfalse
+  %%% Wird der Folgende Zeile einkommentiert,
+  %%% werden Marginalien gesetzt.
+  % \TUDmargintrue
+  \ifTUDmargin\makeatletter
+    \TUD@setmarginpar{2}
+  \makeatother\fi
+%%% ENDE: Zum Tester der Marginalien %%%
+
+\newlength{\longtablewidth}
+\setlength{\longtablewidth}{0.7\linewidth}
+\addtolength{\longtablewidth}{-\marginparsep}
+\addtolength{\longtablewidth}{-\marginparwidth}
+
+
+% \settitlepicture{tudreport-pic}
+% \printpicturesize
+
+\title{IMPLEMENTATION AND ANALYSIS OF A FIELD
+PROGRAMMABLE ADC DESIGN FOR THE INTERFACING OF
+FPGAS}
+\subtitle{Master Thesis: Harini Venkataramani}
+\subsubtitle{Supervisor: Dipl.-Ing. Oliver Bachmann\\
+  Start Date: 2nd May 2018 \textbar\ Submission Date: 1st Nov. 2018\\
+  Fachgebiet Integrierte Elektronische Systeme\hfill\textbar\hfill Prof.\,Dr.-Ing.\, Klaus Hofmann}
+\setinstitutionlogo{logo/ies_logo}
+%\institution{Institut f"ur Datentechnik \\ Fachgebiet Rechnersysteme \\ Prof.\,Dr.-Ing.\, Hans Eveking}
+%\settitlepicture{images/spartan}
+\begin{document}
+
+%% Titel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+\cleardoublepage
+
+%% Vorgeplnkel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{empty}
+\pagenumbering{roman}
+
+%% Inhaltsverzeichnis%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{plain}
+\tableofcontents
+\cleardoublepage
+
+
+%% Hauptteil %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{headings}
+\pagenumbering{arabic}
+%
+%\include{einleitung}
+%\include{uberschriften}
+%\include{text}
+%\include{formeln}
+%\include{graph}
+%\include{tabellen}
+%
+%% english contents
+%\include{introduction}
+%\include{mainpart}
+%\include{conclusion}
+
+
+
+\chapter*{Declaration of Authorship}
+\chapter*{Abstract}
+\chapter*{Zusammenfassung}
+\chapter*{Acknowledgements}
+
+\chapter{Introduction and Motivation}
+\section{Motivation}
+\section{Literature review}
+\section{Problem Description}
+\chapter{Theory of ADCs}
+ \section{Different ADC Architectures}
+  \section{Measurement parameters}
+  \section{Theory of Oversampling}
+\chapter{System Overview}
+\chapter{ADC design}
+  \section{Design Specifications}
+  \section{State Diagrams Explained}
+  \subsection{Counter ADC}
+   \subsection{Tracking ADC}
+    \subsection{SAR ADC}
+    \subsection{Comparative Analysis of Counter,Tracking and SAR ADC}
+\chapter{Digital Post Calibration}
+\section{Moving Average Filter}
+\subsection{ Analysis and Implementation of Moving Average in FPGA}
+\subsection{ Moving Average with Floating Point Unit in FPGA}
+\subsection{ Efficient Implementation of Moving Average in FPGA using CIC}
+\subsubsection{CIC as Moving Average-Proof of Concept}
+\subsection{ Moving Average with CIC performance Analysis}
+\subsection{Illustration of Traditional tracking ADC and Moving Average}
+
+\chapter{Evaluation and Results}
+
+\chapter{Conclusion and Outlook}
+\section{Conclusion}
+\section{Outlook}
+
+
+%% Anhang %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bei Einbindung von .bib an das spezielle Kompilieren mit bibtex denken! (Editorabhängig)%
+% Alternativ mit \begin{thebibliography} und \bibitem arbeiten %
+%\appendix
+\bibliographystyle{plain}
+\clearpage
+%\nocite{*}
+\bibliography{references}
+\end{document}

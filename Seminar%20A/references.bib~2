@@ -1,0 +1,13 @@
+@comment{x-kbibtex-personnameformatting=<%l><, %f>}
+
+@article{adc_12_enob,
+	author = "Morello, Andrea and Pla, Jarryd J and Zwanenburg, Floris A and Chan, Kok W and Tan, Kuan Y and Huebl, Hans and M{\"o}tt{\"o}nen, Mikko and Nugroho, Christopher D and Yang, Changyi and van Donkelaar, Jessica A and others",
+	journal = "Nature",
+	number = "7316",
+	pages = "687",
+	publisher = "Nature Publishing Group",
+	title = "{Single-shot readout of an electron spin in silicon}",
+	volume = "467",
+	year = "2010"
+}
+

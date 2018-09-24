@@ -1,0 +1,15 @@
+
+see fig \ref{fig:sram} and equation \ref{eqn:my_eqn}
+
+\begin{figure}[H]
+\centering
+\includegraphics[scale=1]{images/blockschaltbild.pdf}
+\caption{my fig}
+\label{fig:sram}
+\end{figure}
+
+\cite{meyer2004digital}
+\begin{equation}
+wdxysxc
+\label{eqn:my_eqn}
+\end{equation}

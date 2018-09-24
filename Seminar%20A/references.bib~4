@@ -1,0 +1,86 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+
+%% Created for Nira Pumahualca at 2009-09-27 19:14:04 +0200 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+@mastersthesis{guo,
+	Author = {Guo, Tao},
+	Date-Added = {2009-09-27 19:08:19 +0200},
+	Date-Modified = {2009-09-27 19:09:56 +0200},
+	School = {TU Darmstadt, Fachgebiet Rechnersysteme},
+	Title = {{Ansteuerung eines SDRAM auf einem Xilinx FPGA-Board}},
+	Year = {2008}}
+
+@book{alfke,
+	Author = {Alfke, Peter},
+	Date-Added = {2009-09-27 19:04:16 +0200},
+	Date-Modified = {2009-09-27 19:08:15 +0200},
+	Month = {November},
+	Publisher = {XILINX TechXclusives},
+	Title = {Six Easy Pieces (Non-Synchronous Circuit Tricks)},
+	Year = {2005}}
+
+	@ARTICLE{feyn54,
+   author = "R. P. Feynman",
+   title = "Cool New Stuff",
+   year = "1954",
+   journal = "Phys.\ Rev.",
+   volume = "94",
+   pages = "262-265"
+}
+
+@ARTICLE{epr35,
+   author = "A. Einstein and B. Podolsky and N. Rosen",
+   title = "{EPR} Rocks",
+   year = "1935",
+   journal = "Phys.\ Rev.",
+   volume = "47",
+   pages = "777-789"
+}
+
+@Book{bell24,
+  author =	 {A. G. Bell},
+  title = 	 {All My Inventions},
+  publisher = 	 {Bell Press},
+  year = 	 1924,
+  address =	 {New York},
+  pages =        {34-67}
+}
+
+@InBook{bell34,
+  author =	 {A. G. Bell},
+  title = 	 {More All My Inventions},
+  chapter = 	 8,
+  publisher = 	 {Bell Press},
+  year = 	 1934,
+  address =	 {New York},
+  pages =	 {68-94}
+}
+
+@InProceedings{einstein67,
+  author = 	 {A. Einstein},
+  title = 	 {Future Fusion Physics},
+  booktitle = 	 {Advanced Clay Pot Physics},
+  pages =	 {11-15},
+  volume = 	 {3},
+  year =	 1967,
+  editor =	 {A. G. Bell},
+  address =	 {New York},
+  publisher =	 {Wiley}
+}
+
+
+@PhdThesis{feynman59,
+  author = 	 {R. Feynman},
+  title = 	 {Everything You Ever Wanted to Know about Path Integrals
+                  But Were Afraid to Ask},
+  school = 	 {Princeton University},
+  year = 	 1959,
+  type =	 {{Ph.D.} dissertation}
+}
